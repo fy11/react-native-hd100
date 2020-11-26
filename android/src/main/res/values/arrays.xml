@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="slot_items">
+        <item>大卡座</item>
+        <item>SAM1</item>
+        <item>SAM2</item>
+        <item>SAM3</item>
+        <item>SAM4</item>
+        <item>副卡座</item>
+    </string-array>
+
+    <string-array name="sector_items">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    
+    <string-array name="address_items">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="sound_types">
+        <item>0-静音获取</item>
+        <item>1-请输入密码</item>
+        <item>2-请再次输入</item>
+        <item>3-请输入旧密码</item>
+        <item>4-请输入新密码</item>
+    </string-array>
+</resources>

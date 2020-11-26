@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">东信HD系列测试软件</string>
+    <string name="error">操作失败</string>
+    <string name="dev_init_succ">设备初始化成功</string>
+    <string name="dev_init_error">设备初始化失败</string>
+    <string name="dev_link_succ">读卡器已连接</string>
+    <string name="dev_link_error">读卡器断开连接</string>
+    <string name="open_device">连接设备</string>
+    <string name="close_device">关闭设备</string>
+    <string name="posBeep">蜂鸣器</string>
+    <string name="clear">清屏</string>
+    <string name="secNr">扇区:</string>
+    <string name="addr">块号:</string>
+    <string name="key">秘钥:</string>
+    <string name="pwd">FFFFFFFFFFFF</string>
+    <string name="data_to_be_written">待写数据:</string>
+    <string name="data_m1">1122334455667788</string>
+    <string name="readCard_M1">M1读</string>
+    <string name="writeCard_M1">M1写</string>
+    <string name="track">磁道:</string>
+    <string name="timeout">超时时间:</string>
+    <string name="readMagCard">读磁卡</string>
+    <string name="scanQRCode">扫码</string>
+    <string name="rfid">15693</string>
+    <string name="qrcode">扫码</string>
+    <string name="siCard">社保卡</string>
+    <string name="CertCard">身份证</string>
+    <string name="CertCardID">身份证ID</string>
+    <string name="bankCard">银行卡</string>
+    <string name="money">金额:</string>
+</resources>
