@@ -35,3 +35,12 @@ public class RNHDModule extends ReactContextBaseJavaModule implements LifecycleE
        mdev = new DeviceLib(getApplicationContext(), new DeviceStatusCallback(){  })
     }
 
+    @ReactMethod
+    public void start() {
+    
+    }
+
+    @Override
+    public String getName() {
+      return "RNHDIdCard";
+    }
