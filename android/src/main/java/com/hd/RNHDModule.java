@@ -26,7 +26,7 @@ public class RNHDModule extends ReactContextBaseJavaModule implements LifecycleE
 
     public RNHDModule(ReactApplicationContext reactContext) {
         super(reactContext);
-        // this.reactContext = reactContext;
+        this.reactContext = reactContext;
         reactContext.addLifecycleEventListener(this);
     }
     @Override
