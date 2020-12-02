@@ -22,17 +22,13 @@ import com.reader.usbdevice.DeviceStatusCallback;
 public class RNHDModule extends ReactContextBaseJavaModule implements LifecycleEventListener {
     // 可以修饰成员变量和成员方法被其修饰的成员只能在本类中被访问
     private final ReactApplicationContext reactContext;
-    private HDCardReader HDCardReader = null;
-    private DeviceLib mdev = null;
+    private HDCardReader HDCardReader;
+    private DeviceLib mdev;
 
     public RNHDModule(ReactApplicationContext reactContext) {
         super(reactContext);
         // this.reactContext = reactContext;
         reactContext.addLifecycleEventListener(this);
-    }
-    @ReactMethod
-    public void openDevice(Boolean isConnected) {
-       mdev = new DeviceLib(getApplicationContext(), new DeviceStatusCallback(){  })
     }
 
     @ReactMethod
