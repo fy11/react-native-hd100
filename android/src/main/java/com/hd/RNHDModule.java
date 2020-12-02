@@ -22,7 +22,6 @@ import com.reader.usbdevice.DeviceStatusCallback;
 public class RNHDModule extends ReactContextBaseJavaModule implements LifecycleEventListener {
     // 可以修饰成员变量和成员方法被其修饰的成员只能在本类中被访问
     private final ReactApplicationContext reactContext;
-    private HDCardReader HDCardReader;
     private DeviceLib mdev;
 
     public RNHDModule(ReactApplicationContext reactContext) {
@@ -30,6 +29,21 @@ public class RNHDModule extends ReactContextBaseJavaModule implements LifecycleE
         // this.reactContext = reactContext;
         reactContext.addLifecycleEventListener(this);
     }
+    @Override
+    public void onHostResume() {
+        // Activity `onResume`
+    }
+
+    @Override
+    public void onHostPause() {
+        // Activity `onPause`
+    }
+
+    @Override
+    public void onHostDestroy() {
+ 
+    }
+
 
     @ReactMethod
     public void start() {
@@ -40,3 +54,6 @@ public class RNHDModule extends ReactContextBaseJavaModule implements LifecycleE
     public String getName() {
       return "RNHDIdCard";
     }
+  
+  
+  }
